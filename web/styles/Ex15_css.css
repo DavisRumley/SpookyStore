@@ -12,12 +12,47 @@ and open the template in the editor.
 Elon - CSC 330
 */
 
-body{
-    background-color: orange;
+*{
+    font-family: "Times New Roman", Times, serif;
+    
+}
 
+img{
+    float: left;
+    
+}
+
+h1::first-letter, h2::first-letter{
+    font-size: 1.3em;
+}
+
+h1{
+    font-style: italic;
+    color: orange;
+    text-shadow: 1.5px 1.5px #000000;
+    
+}
+
+
+body{
+    background-color: white;
+
+}
+a{
+    color: orange;
+}
+a:visited{
+    color: orange;
+}
+li{
+    margin: 0 0 .4em 0;
+    font-weight: bold;
 }
 
 footer{
-
-
+    font-size: .8em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to black, orange , white);
 }
