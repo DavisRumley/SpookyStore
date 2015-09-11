@@ -43,13 +43,13 @@ body{
     background-color: white;
 
 }
-a{
+#menu a{
     color: orange;
 }
-a:visited{
-    color: orange;
+#menu li.a:visited{
+    color: green;
 }
-li{
+#menu li{
     margin: 0 0 .4em 0;
     font-weight: bold;
 }
