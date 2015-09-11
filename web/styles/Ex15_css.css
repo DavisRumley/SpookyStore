@@ -22,11 +22,17 @@ img{
     
 }
 
+
 h1::first-letter, h2::first-letter{
     font-size: 1.3em;
 }
 
-h1{
+main h1{
+    clear:both;
+    //Helps the h1 message to align below the logo image
+}
+
+#Banner{
     font-style: italic;
     color: orange;
     text-shadow: 1.5px 1.5px #000000;
@@ -49,6 +55,9 @@ li{
     font-weight: bold;
 }
 
+p{
+    align: left;
+}
 footer{
     font-size: .8em;
     text-align: center;
