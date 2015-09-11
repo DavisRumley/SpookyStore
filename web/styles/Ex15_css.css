@@ -18,8 +18,7 @@ Elon - CSC 330
 }
 
 img{
-    float: left;
-    
+    float: left; 
 }
 
 
@@ -29,6 +28,7 @@ h1::first-letter, h2::first-letter{
 
 main h1{
     clear:both;
+
 }
 
 #Banner{
