@@ -27,10 +27,8 @@ h1::first-letter, h2::first-letter{
     font-size: 1.3em;
 }
 
-//Helps the h1 message to align below the logo image
 main h1{
     clear:both;
-    
 }
 
 #Banner{
