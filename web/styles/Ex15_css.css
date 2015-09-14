@@ -104,7 +104,7 @@ nav{
     
     color: orange;
 }
-#menu li.a:visited{
+#menu a:visited{
     color: green;
 }
 #menu li{
