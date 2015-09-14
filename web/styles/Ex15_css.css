@@ -83,7 +83,6 @@ article h1{
 
 #pic_link{
     float: left;
-    //clear: both;
     margin-top: 130px;
     margin-left: -175px;
     
@@ -91,7 +90,7 @@ article h1{
 
 }
 #cat_pic{
-    margin-left: 5px;
+    
 }
 
 nav{
