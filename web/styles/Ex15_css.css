@@ -15,15 +15,54 @@ Elon - CSC 330
 *{
     font-family: "Times New Roman", Times, serif;
     
+     
 }
 
 img{
     float: left; 
+    padding-right: 30px;
 }
 
+header{
+    padding-top: .5em;
+   
+    
+    border-style: solid;
+    border-top: #000000;
+    border-left: #000000;
+    border-right: #000000;
+    background: linear-gradient(to top right, white, orange, black);
+    
+    
+   
+}
+
+#Banner{
+   
+}
 
 h1::first-letter, h2::first-letter{
     font-size: 1.3em;
+}
+
+body{
+    box-shadow: 10px 10px 5px #888888;
+    width: 800px;
+    
+    margin: auto;
+    
+    border-style: solid;
+    border-width: 3px;
+    
+   
+ 
+   
+
+}
+
+p, h1, h2{
+    padding-left: 10px;
+    
 }
 
 main h1{
@@ -31,18 +70,12 @@ main h1{
 
 }
 
-#Banner{
-    font-style: italic;
-    color: orange;
-    text-shadow: 1.5px 1.5px #000000;
-    
-}
-
-
-body{
+main{
     background-color: white;
-
+    padding-bottom: .5em;
+      
 }
+
 #menu a{
     color: orange;
 }
@@ -58,7 +91,14 @@ body{
 footer{
     font-size: .8em;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+    
+    border-style: solid;
+    border-bottom: #000000;
+    border-left: #000000;
+    border-right: #000000;
+    
+    background: linear-gradient(to bottom left, white, orange, black);
 }
