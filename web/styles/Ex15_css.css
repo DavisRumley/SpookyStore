@@ -18,6 +18,9 @@ Elon - CSC 330
      
 }
 
+html{
+    background-image: url("../images/bats.gif");
+}
 img{
     float: left; 
     padding-right: 30px;
@@ -53,7 +56,7 @@ body{
     border-style: solid;
     border-width: 3px;
     
-    background-image: url("../images/bats.gif");
+    
     
     column-count: 2;
     column-gap: 40px;
@@ -77,7 +80,7 @@ article h1{
 article{
     background-color: white;
     padding-bottom: .5em;
-    margin-left: 165px;
+    margin-left: 160px;
     top: 0;
     
 }
@@ -102,10 +105,10 @@ article{
 
 nav{
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #fff;
     width: 160px;
-    //background-color: #888888; 
-    height: 100%;
+     
+    
 }
 
 #menu a{
