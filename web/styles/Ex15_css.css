@@ -26,7 +26,6 @@ img{
 header{
     padding-top: .5em;
    
-    
     border-style: solid;
     border-top: #000000;
     border-left: #000000;
@@ -54,6 +53,10 @@ body{
     border-style: solid;
     border-width: 3px;
     
+    background-image: url("bats.gif");
+    
+    column-count: 2;
+    column-gap: 40px;
    
  
    
@@ -62,18 +65,44 @@ body{
 
 p, h1, h2{
     padding-left: 10px;
+
     
 }
 
 main h1{
     clear:both;
-
+    
 }
 
 main{
     background-color: white;
     padding-bottom: .5em;
-   
+    margin-left: 165px;
+    top: 0;
+    
+}
+#main  a {
+   position: relative;
+   display: inline-block;
+    
+}
+
+
+#pic_link{
+    float: left;
+    margin-top: 130px;
+    margin-left: -175px;
+
+}
+#cat_pic{
+    margin-left: 5px;
+}
+
+nav{
+    
+    float: left;
+    width: 160px;
+    background-color: #888888; 
 }
 
 #menu a{
