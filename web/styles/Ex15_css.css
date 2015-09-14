@@ -34,8 +34,6 @@ header{
     border-left: #000000;
     border-right: #000000;
     background: linear-gradient(to top right, white, orange, black);
-    
-    
    
 }
 
@@ -51,48 +49,41 @@ body{
     box-shadow: 10px 10px 5px #000000;
     width: 800px;
     
-    margin: auto;
+    margin: 0 auto;
     
     border-style: solid;
     border-width: 3px;
     
-    
-    
-    column-count: 2;
-    column-gap: 40px;
-   
- 
-   
-
 }
 
 p, h1, h2{
     padding-left: 10px;
+ 
+}
 
+
+article{
+    background-color: white;
+    padding-bottom: .5em;
     
+    float: right;
+    width: 640px;
 }
 
 article h1{
     clear:both;
     
 }
-
-article{
-    background-color: white;
-    padding-bottom: .5em;
-    margin-left: 160px;
-    top: 0;
-    
-}
 #article  a {
    position: relative;
-   display: inline-block;
-    
+   display: block;
+      
 }
 
 
 #pic_link{
     float: left;
+    //clear: both;
     margin-top: 130px;
     margin-left: -175px;
     
@@ -104,10 +95,10 @@ article{
 }
 
 nav{
-    position: absolute;
-    background-color: #fff;
+    float: left;
+    background-color: #555555;
     width: 160px;
-     
+    height: 100%;
     
 }
 
@@ -125,12 +116,12 @@ nav{
 
 
 footer{
+    clear: both;
     font-size: .8em;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
-    
+  
     border-style: solid;
     border-bottom: #000000;
     border-left: #000000;
