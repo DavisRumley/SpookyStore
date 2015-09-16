@@ -94,16 +94,24 @@ article h1{
 }
 
 nav{
-    float: left;
+    //float: left;
+    //background-color: #FFF;
+    //width: 160px;
+    //height: 100%;
+    
+}
+
+//Moved properties from nav to menu b/c of the addition of a new Nav. menu
+#menu{
+    
     background-color: #FFF;
     width: 160px;
-    height: 100%;
+    //height: 100%;
     
 }
 
 #menu a{
-    
-    color: orange;
+    color: black;
 }
 #menu a:visited{
     color: green;
@@ -111,7 +119,40 @@ nav{
 #menu li{
     margin: 0 0 .4em 0;
     font-weight: bold;
+    background-color: orange;
+    list-style-type: none;
+    width: 160px;
+    padding:5px 5px 5px 5px;
+    
+    border:1px solid;
+    border-width:1px;
+    
 }
+
+
+#hori_menu li{
+    list-style-type: none;
+    background-color: black;
+    
+    float: left;
+    
+    text-align: center;
+    display: inline;
+    
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+#hori_menu home{
+    color:orange;
+}
+
+#hori_menu a:hover{
+    color: black;
+    background-color: gray;
+    
+}
+
 
 
 footer{
