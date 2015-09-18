@@ -64,8 +64,8 @@ article{
     background-color: white;
     padding-bottom: .5em;
     
-    float: right;
-    width: 640px;
+    float: left;
+    width: 460px;
 }
 
 article h1{
@@ -79,6 +79,37 @@ article h1{
 }
 
 
+
+#section{
+    float: right;
+    width: 180px;
+    background-color: #F5DEB3;
+}
+
+#rec_prod{
+    
+}
+
+#rec_list{
+    float: left;
+    list-style-type: none;
+}
+
+#rec_list a{
+    color: black;
+}
+#rec_list a:visited{
+    color: black;
+}
+#rec_list a:hover{
+    color: green;
+}
+#rec_list a:focus{
+    color: black;
+}
+
+
+
 #pic_link{
     float: left;
     margin-left: 10px;
@@ -88,6 +119,7 @@ article h1{
 }
 #cat_pic{
     margin-left: 5px;
+    float: left;
 }
 
 
