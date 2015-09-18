@@ -62,7 +62,8 @@ article{
     padding-bottom: .5em;
     
     float: left;
-    width: 460px;
+    //width: 480px;
+    width: 640px;
 }
 
 article h1{
@@ -195,7 +196,6 @@ article h2{
     
 }
 
-
 #hori_menu li:hover{
     background-color: gray;
     color: black;
@@ -203,7 +203,8 @@ article h2{
 #hori_menu a:hover{
     color: black;
 }
-#hori_menu li:active{
+
+#hori_menu li:nth-child(2) a{
     color: orange;
 }
 
@@ -220,6 +221,7 @@ article h2{
 .tg  {
     border-collapse:collapse;
     border:none;
+    
 }
 .tg td{
     font-family:Arial, sans-serif;
@@ -235,6 +237,19 @@ article h2{
     padding:10px 5px;
     overflow:hidden;
     word-break:normal;
+}
+
+.col-head{
+    font-weight: bold;
+}
+.category{
+    font-weight: bold;
+}
+.Description a{
+    color: black;
+}
+.Price{
+    background-color: #F5DEB3;
 }
 
 
