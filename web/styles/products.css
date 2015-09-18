@@ -93,6 +93,11 @@ article h1{
 #rec_list{
     float: left;
     list-style-type: none;
+    
+}
+
+#rec_list li{
+    padding-bottom: 15px;
 }
 
 #rec_list a{
