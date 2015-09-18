@@ -37,9 +37,6 @@ header{
    
 }
 
-#Banner{
-   
-}
 
 
 body{
@@ -114,23 +111,6 @@ article h2{
 #rec_list a:focus{
     color: black;
 }
-
-
-
-#pic_link{
-    float: left;
-    margin-left: 10px;
-    clear: both;
-    color:orange;
-
-}
-#cat_pic{
-    margin-left: 5px;
-    float: left;
-}
-
-
-
 
 
 #vert_menu{
@@ -232,6 +212,9 @@ article h2{
     font-weight: bold;
     color: red;
     
+}
+#prod_table a{
+    font-size: 14px;
 }
 
 .tg  {
