@@ -208,12 +208,31 @@ article h2{
     color: orange;
 }
 
-
 #registration{
-    width: 600px;
     float: left;
-    padding-left: 30px;
+}
+#registration label{
+    display: inline-block;
+    float: left;
+    width: 30%;
     font-size: 1.1em;
+    text-align: right;
+    
+    
+}
+#registration input{
+    display: inline-block;
+    float: left;
+    
+    
+}
+
+#submit_button{
+    background-color: orange;
+    border-color: black;
+    margin-bottom: 1em;
+    float: left;
+    margin-top: 5%;
 }
 
 

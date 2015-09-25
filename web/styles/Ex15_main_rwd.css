@@ -77,7 +77,7 @@ article{
     padding-bottom: .5em;
     
     float: right;
-    width: 75%;
+    max-width: 75%;
 }
 
 article h1{
@@ -203,6 +203,12 @@ article h1{
 #hori_menu a:hover{
     color: black;
 }
+#mobile{
+    display: none;
+    background-color: black;
+    text-align: right;
+    color: white;
+}
 
 
 
@@ -221,7 +227,11 @@ footer{
     background: linear-gradient(to bottom left, white, orange, black);
 }
 
+#footer{
+        margin-bottom: 15%;
+    }
 
+    
 @media screen and (max-width: 800px) {
     html {
         background-image: none;
@@ -241,9 +251,14 @@ footer{
     #hori_menu{
         display: none;
     }
-    article{
-        width: 75%;
+    
+    #mobile{
+        display: block;
     }
+    article{
+        //max-width: 75%;
+    }
+   
     
 }
 @media screen and (max-width: 767px){
@@ -264,20 +279,18 @@ footer{
         
         text-align: right;
     }
+    
     #vert_menu{
-        Position: fixed;
         bottom: 0px;
-        width: 100%;
-        left: 40%;
-        
-    }
-    #article{
-        width: 100%;
-        
-    }
-    #footer{
-        margin-bottom: 15%;
-    }
-}
+        float: none;
+        padding: 40%;
+    }   
 
+    #article{
+        width: 100% !important;
+        float: none;
+        
+    }
+    
+}
 
