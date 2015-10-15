@@ -47,15 +47,14 @@ Elon University - CSC330-->
 <section id="registration">
 <h2>Please enter the following information.</h2>
 
-
-<label>First name: </label><input type="text" name="firstname" required><br>
-<label>First name: </label><input type="text" name="lastname" required><br>
-<label>Email: </label><input type="text" name="email" required><br>
-<label>Zip Code: </label><input type="number" name="zipcode" placeholder="Optional but appreciated: 99999"><br>
-   
-<a href="email_success.html">
-        <button id="submit_button">Submit</button>
-    </a>
+<form action="goelon" id="userinfo">
+    <input type="hidden" name="action" value="add">
+    <label>First name: </label><input type="text" name="firstName" required><br>
+    <label>First name: </label><input type="text" name="lastName" required><br>
+    <label>Email: </label><input type="text" name="email" required><br>
+    <label>Zip Code: </label><input type="number" name="zip" placeholder="Optional but appreciated: 99999"><br>
+    <input id="submit" type="submit" value="Submit">
+</form>
 </section>   
 
 
